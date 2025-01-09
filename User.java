@@ -47,7 +47,7 @@
             if (follows[i] == null) {
                 return false;
             }
-            if (name.equals(follows[i])) {
+            if (name.toLowerCase().equals(follows[i].toLowerCase())) {
                 return true;
             }
         }
